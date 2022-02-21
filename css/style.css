@@ -440,6 +440,7 @@ header .main-menu li:hover a,header .main-menu .active a{
     border: none;
     outline: none;
     padding: 1rem 2rem;
+    font-size: 1.2rem;
 }
 .newsletter .news-content form input[type="submit"]{
     background-color: var(--primary);
@@ -451,4 +452,94 @@ header .main-menu li:hover a,header .main-menu .active a{
 .newsletter .news-content form input[type="submit"]:hover{
     background-color:var(--secondary);
     color: white;
+}
+
+/* Start Contact */
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .contactinfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 2rem;
+}
+.contact .contactinfo .contact-boxes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.contact .contactinfo .box{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.contact .contactinfo .box img{
+    margin-right: 1rem;
+}
+.contact .map{
+    flex: 1;
+}
+.contact .map iframe{
+    flex-basis: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+footer{
+    padding-top: 4rem;
+    /* padding-bottom: 4rem; */
+    background-color:var(--footer);
+}
+footer .top-footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 2rem;
+    text-align: center;
+}
+footer .top-footer h3{
+    color: white;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--primary);
+    margin-bottom: 1rem;
+}
+footer .top-footer a,footer .top-footer p{
+    color: white;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+footer .top-footer a{
+    transition: 0.3s;
+}
+footer .top-footer a:hover{
+    color: var(--primary);
+}
+footer .top-footer li{
+    margin-bottom: 0.5rem;
+}
+footer .top-footer .social{
+    text-align: left;
+    margin: 0 3rem;
+}
+footer .top-footer .social i{
+    margin-right: 1rem;
+}
+footer .top-footer .box .gallery img{
+    max-width: 100%;;
+}
+footer .top-footer .box .gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5rem;
+}
+footer .bottom-footer{
+    text-align: center;
+    background-color: var(--secondary);
+    color: white;
+    padding: 1rem;
+}
+footer .bottom-footer span{
+    color: var(--primary);
 }
