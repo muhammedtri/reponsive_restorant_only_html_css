@@ -164,7 +164,7 @@ header .main-menu li:hover,header .main-menu .active{
 header .main-menu li:hover a,header .main-menu .active a{
     color: white;
 }
-@media (max-width:425px){
+@media (max-width:576px){
     header{
         height: 100px;
         text-align: center;
@@ -237,7 +237,7 @@ header .main-menu li:hover a,header .main-menu .active a{
     background-color: white;
     color: var(--primary);
 }
-@media (max-width:425px){
+@media (max-width:576px){
     .hero .hero-content > img{
         display: none;
     }
@@ -330,7 +330,7 @@ header .main-menu li:hover a,header .main-menu .active a{
     line-height: 2;
     margin: 2rem 0;
 }
-@media (max-width:425px){
+@media (max-width:576px){
     .fresh-meal .fresh-content{
         flex-direction: column;
     }
@@ -383,7 +383,7 @@ header .main-menu li:hover a,header .main-menu .active a{
     background-color: white;
     color: var(--primary);
 }
-@media (max-width:425px){
+@media (max-width:576px){
     .services .services-content .service{
         margin-bottom: 2rem;  
     }
@@ -499,7 +499,7 @@ header .main-menu li:hover a,header .main-menu .active a{
     background-color:var(--secondary);
     color: white;
 }
-@media (max-width:425px){
+@media (max-width:576px){
     .newsletter .news-content{
         flex-direction: column;
     }
@@ -551,7 +551,7 @@ header .main-menu li:hover a,header .main-menu .active a{
     max-width: 100%;
     margin: 0 auto;
 }
-@media (max-width:425px){
+@media (max-width:576px){
     .contact{
         flex-direction: column;
     }
