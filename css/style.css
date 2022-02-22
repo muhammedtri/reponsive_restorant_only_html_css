@@ -191,6 +191,9 @@ header .main-menu li:hover a,header .main-menu .active a{
     header .top-menu li:not(:last-child)::after{
         right: -0.5rem;
     }
+    header .container .top-head .top-menu{
+        font-size: 0.7rem;
+    }
 }
 /* Start Hero section */
 .hero{
@@ -264,7 +267,7 @@ header .main-menu li:hover a,header .main-menu .active a{
 .products .product{
     background-color: white;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     border-radius: 0.5rem;
     box-shadow: 0 5px 5px -5px var(--footer);
 }
@@ -353,7 +356,7 @@ header .main-menu li:hover a,header .main-menu .active a{
 }
 .services .services-content .service{
     background-color: white;
-    padding:2rem;
+    padding:2rem 0;
     border-radius: 0.5rem;
     box-shadow: 0 5px 5px -5px var(--footer);
     position: relative;
@@ -533,7 +536,7 @@ header .main-menu li:hover a,header .main-menu .active a{
 .contact .contactinfo .contact-boxes{
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin: 2rem;
 }
 .contact .contactinfo .box{
     display: flex;
@@ -550,6 +553,7 @@ header .main-menu li:hover a,header .main-menu .active a{
     flex-basis: 50%;
     max-width: 100%;
     margin: 0 auto;
+    height: 100%;
 }
 @media (max-width:576px){
     .contact{
